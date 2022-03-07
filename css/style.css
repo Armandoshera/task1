@@ -1,0 +1,94 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+  }
+  
+  .logo{
+      color: rgb(170, 7, 40);
+  }
+  .heading{
+    color: rgb(170, 7, 40);
+  }
+  .carousel {
+    margin-top: 50px;
+  }
+  .col-md-4 {
+    margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .col-md-4 img {
+    width: 200px;
+    height: 200px;
+  }
+  .col-md-8 {
+    width: 38% !important;
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
+  }
+
+
+  .content1{
+      
+     flex-direction: column;
+     text-align: center;
+     justify-content: center;
+  }
+  /*main section*/
+  /*
+  .img1{
+    width: 100%;
+    height: 400px;
+}*/
+
+  .text{
+      justify-content: center;
+      align-items: center;
+      padding-left: 10px;
+  }
+  .heading1{
+      text-align: center;
+      justify-content: center;
+      color: rgb(141, 8, 34);
+      
+      
+  }
+  .img01{
+      width: 36%;
+      height: 150px;
+      float: left;
+  }
+  .text0{
+    float: right;
+    width: 48%;
+    margin-right: 68px;
+  }
+
+  .tut_rightbox{
+    height: 150px;
+  }
+
